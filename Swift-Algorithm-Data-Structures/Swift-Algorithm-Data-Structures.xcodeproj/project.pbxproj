@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA83B96528A2CE3B00895EAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96428A2CE3B00895EAA /* main.swift */; };
+		BA83B96D28A2CE8900895EAA /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */; };
+		BA83B97128A2CEE000895EAA /* LinearSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97028A2CEE000895EAA /* LinearSearching.swift */; };
+		BA83B97328A2CF0300895EAA /* BinarySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97228A2CF0300895EAA /* BinarySearching.swift */; };
+		BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97428A2CF2E00895EAA /* BubbleSort.swift */; };
+		BA83B97728A2CF5200895EAA /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97628A2CF5200895EAA /* SelectionSort.swift */; };
+		BA83B97928A2CF7B00895EAA /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97828A2CF7B00895EAA /* InsertionSort.swift */; };
+		BA83B97B28A2CFAF00895EAA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97A28A2CFAF00895EAA /* MergeSort.swift */; };
+		BA83B97D28A2CFE100895EAA /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97C28A2CFE100895EAA /* QuickSort.swift */; };
+		BA83B98028A2D0E900895EAA /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97F28A2D0E900895EAA /* Bag.swift */; };
+		BA83B98228A2D10E00895EAA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B98128A2D10E00895EAA /* Queue.swift */; };
+		BA83B98428A2D13C00895EAA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B98328A2D13C00895EAA /* Stack.swift */; };
+		BA83B98728A2D18600895EAA /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B98628A2D18600895EAA /* Recursion.swift */; };
+		BA83B98928A2D1B900895EAA /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B98828A2D1B900895EAA /* ExhaustiveSearch.swift */; };
+		BA83B98B28A2D1F200895EAA /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B98A28A2D1F200895EAA /* Backtracking.swift */; };
+		BA83B99428A2D32100895EAA /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99328A2D32100895EAA /* AdjacencyList.swift */; };
+		BA83B99628A2D33B00895EAA /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99528A2D33B00895EAA /* AdjacencyMatrix.swift */; };
+		BA83B99828A2D34600895EAA /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99728A2D34600895EAA /* BFS.swift */; };
+		BA83B99A28A2D35400895EAA /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99928A2D35400895EAA /* DFS.swift */; };
+		BA83B99C28A2D36000895EAA /* Bipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99B28A2D36000895EAA /* Bipartite.swift */; };
+		BA83B99E28A2D36E00895EAA /* ConnectedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99D28A2D36E00895EAA /* ConnectedComponents.swift */; };
+		BA83B9A028A2D40E00895EAA /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B99F28A2D40E00895EAA /* TreeTraversal.swift */; };
+		BA83B9A328A2D49700895EAA /* GraphAssignment-ProblemSet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A228A2D49700895EAA /* GraphAssignment-ProblemSet2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA83B95F28A2CE3B00895EAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA83B96128A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithm-Data-Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA83B96428A2CE3B00895EAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
+		BA83B97028A2CEE000895EAA /* LinearSearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearching.swift; sourceTree = "<group>"; };
+		BA83B97228A2CF0300895EAA /* BinarySearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearching.swift; sourceTree = "<group>"; };
+		BA83B97428A2CF2E00895EAA /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		BA83B97628A2CF5200895EAA /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		BA83B97828A2CF7B00895EAA /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		BA83B97A28A2CFAF00895EAA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		BA83B97C28A2CFE100895EAA /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		BA83B97F28A2D0E900895EAA /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		BA83B98128A2D10E00895EAA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		BA83B98328A2D13C00895EAA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BA83B98628A2D18600895EAA /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
+		BA83B98828A2D1B900895EAA /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
+		BA83B98A28A2D1F200895EAA /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
+		BA83B98C28A2D24C00895EAA /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
+		BA83B99328A2D32100895EAA /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		BA83B99528A2D33B00895EAA /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
+		BA83B99728A2D34600895EAA /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		BA83B99928A2D35400895EAA /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		BA83B99B28A2D36000895EAA /* Bipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipartite.swift; sourceTree = "<group>"; };
+		BA83B99D28A2D36E00895EAA /* ConnectedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedComponents.swift; sourceTree = "<group>"; };
+		BA83B99F28A2D40E00895EAA /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
+		BA83B9A228A2D49700895EAA /* GraphAssignment-ProblemSet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GraphAssignment-ProblemSet2.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA83B95E28A2CE3B00895EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA83B95828A2CE3B00895EAA = {
+			isa = PBXGroup;
+			children = (
+				BA83B96328A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */,
+				BA83B96228A2CE3B00895EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA83B96228A2CE3B00895EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B96128A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA83B96328A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B98528A2D16D00895EAA /* Recursion */,
+				BA83B97E28A2D0D200895EAA /* DataStructures */,
+				BA83B96F28A2CEBA00895EAA /* Sorting */,
+				BA83B96E28A2CEB100895EAA /* Searching */,
+				BA83B96B28A2CE6D00895EAA /* Utils */,
+				BA83B96428A2CE3B00895EAA /* main.swift */,
+			);
+			path = "Swift-Algorithm-Data-Structures";
+			sourceTree = "<group>";
+		};
+		BA83B96B28A2CE6D00895EAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BA83B96E28A2CEB100895EAA /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B97028A2CEE000895EAA /* LinearSearching.swift */,
+				BA83B97228A2CF0300895EAA /* BinarySearching.swift */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		BA83B96F28A2CEBA00895EAA /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B97428A2CF2E00895EAA /* BubbleSort.swift */,
+				BA83B97628A2CF5200895EAA /* SelectionSort.swift */,
+				BA83B97828A2CF7B00895EAA /* InsertionSort.swift */,
+				BA83B97A28A2CFAF00895EAA /* MergeSort.swift */,
+				BA83B97C28A2CFE100895EAA /* QuickSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		BA83B97E28A2D0D200895EAA /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B98E28A2D28900895EAA /* Bag */,
+				BA83B98F28A2D29600895EAA /* Queue */,
+				BA83B99028A2D2A400895EAA /* Stack */,
+				BA83B99128A2D2D300895EAA /* Graph */,
+				BA83B99228A2D2DB00895EAA /* Tree */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		BA83B98528A2D16D00895EAA /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B98628A2D18600895EAA /* Recursion.swift */,
+				BA83B98828A2D1B900895EAA /* ExhaustiveSearch.swift */,
+				BA83B98A28A2D1F200895EAA /* Backtracking.swift */,
+				BA83B98C28A2D24C00895EAA /* story.txt */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		BA83B98E28A2D28900895EAA /* Bag */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B97F28A2D0E900895EAA /* Bag.swift */,
+			);
+			path = Bag;
+			sourceTree = "<group>";
+		};
+		BA83B98F28A2D29600895EAA /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B98128A2D10E00895EAA /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		BA83B99028A2D2A400895EAA /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B98328A2D13C00895EAA /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		BA83B99128A2D2D300895EAA /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B9A128A2D46D00895EAA /* Exercises */,
+				BA83B99328A2D32100895EAA /* AdjacencyList.swift */,
+				BA83B99528A2D33B00895EAA /* AdjacencyMatrix.swift */,
+				BA83B99728A2D34600895EAA /* BFS.swift */,
+				BA83B99B28A2D36000895EAA /* Bipartite.swift */,
+				BA83B99D28A2D36E00895EAA /* ConnectedComponents.swift */,
+				BA83B99928A2D35400895EAA /* DFS.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		BA83B99228A2D2DB00895EAA /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B99F28A2D40E00895EAA /* TreeTraversal.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		BA83B9A128A2D46D00895EAA /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				BA83B9A228A2D49700895EAA /* GraphAssignment-ProblemSet2.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA83B96028A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA83B96828A2CE3B00895EAA /* Build configuration list for PBXNativeTarget "Swift-Algorithm-Data-Structures" */;
+			buildPhases = (
+				BA83B95D28A2CE3B00895EAA /* Sources */,
+				BA83B95E28A2CE3B00895EAA /* Frameworks */,
+				BA83B95F28A2CE3B00895EAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Algorithm-Data-Structures";
+			productName = "Swift-Algorithm-Data-Structures";
+			productReference = BA83B96128A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA83B95928A2CE3B00895EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BA83B96028A2CE3B00895EAA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BA83B95C28A2CE3B00895EAA /* Build configuration list for PBXProject "Swift-Algorithm-Data-Structures" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA83B95828A2CE3B00895EAA;
+			productRefGroup = BA83B96228A2CE3B00895EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA83B96028A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA83B95D28A2CE3B00895EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA83B98028A2D0E900895EAA /* Bag.swift in Sources */,
+				BA83B96528A2CE3B00895EAA /* main.swift in Sources */,
+				BA83B97328A2CF0300895EAA /* BinarySearching.swift in Sources */,
+				BA83B99628A2D33B00895EAA /* AdjacencyMatrix.swift in Sources */,
+				BA83B98228A2D10E00895EAA /* Queue.swift in Sources */,
+				BA83B99828A2D34600895EAA /* BFS.swift in Sources */,
+				BA83B99C28A2D36000895EAA /* Bipartite.swift in Sources */,
+				BA83B98428A2D13C00895EAA /* Stack.swift in Sources */,
+				BA83B99E28A2D36E00895EAA /* ConnectedComponents.swift in Sources */,
+				BA83B97B28A2CFAF00895EAA /* MergeSort.swift in Sources */,
+				BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */,
+				BA83B97D28A2CFE100895EAA /* QuickSort.swift in Sources */,
+				BA83B9A028A2D40E00895EAA /* TreeTraversal.swift in Sources */,
+				BA83B97928A2CF7B00895EAA /* InsertionSort.swift in Sources */,
+				BA83B98928A2D1B900895EAA /* ExhaustiveSearch.swift in Sources */,
+				BA83B97128A2CEE000895EAA /* LinearSearching.swift in Sources */,
+				BA83B99A28A2D35400895EAA /* DFS.swift in Sources */,
+				BA83B97728A2CF5200895EAA /* SelectionSort.swift in Sources */,
+				BA83B99428A2D32100895EAA /* AdjacencyList.swift in Sources */,
+				BA83B98B28A2D1F200895EAA /* Backtracking.swift in Sources */,
+				BA83B98728A2D18600895EAA /* Recursion.swift in Sources */,
+				BA83B96D28A2CE8900895EAA /* String+DPStringTool.swift in Sources */,
+				BA83B9A328A2D49700895EAA /* GraphAssignment-ProblemSet2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA83B96628A2CE3B00895EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA83B96728A2CE3B00895EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA83B96928A2CE3B00895EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K77MM3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA83B96A28A2CE3B00895EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K77MM3X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA83B95C28A2CE3B00895EAA /* Build configuration list for PBXProject "Swift-Algorithm-Data-Structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA83B96628A2CE3B00895EAA /* Debug */,
+				BA83B96728A2CE3B00895EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA83B96828A2CE3B00895EAA /* Build configuration list for PBXNativeTarget "Swift-Algorithm-Data-Structures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA83B96928A2CE3B00895EAA /* Debug */,
+				BA83B96A28A2CE3B00895EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA83B95928A2CE3B00895EAA /* Project object */;
+}
