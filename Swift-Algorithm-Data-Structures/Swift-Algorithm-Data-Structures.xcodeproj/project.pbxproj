@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA27FD3228AB615D00548BE7 /* GreedyAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */; };
 		BA83B96528A2CE3B00895EAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96428A2CE3B00895EAA /* main.swift */; };
 		BA83B96D28A2CE8900895EAA /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */; };
 		BA83B97128A2CEE000895EAA /* LinearSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97028A2CEE000895EAA /* LinearSearching.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyAssignment.swift; sourceTree = "<group>"; };
 		BA83B96128A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithm-Data-Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA83B96428A2CE3B00895EAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
@@ -87,6 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA27FD2F28AB611700548BE7 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				BA27FD3028AB612A00548BE7 /* Exercises */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
+		BA27FD3028AB612A00548BE7 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
 		BA83B95828A2CE3B00895EAA = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +124,7 @@
 		BA83B96328A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {
 			isa = PBXGroup;
 			children = (
+				BA27FD2F28AB611700548BE7 /* Greedy */,
 				BA83B98528A2D16D00895EAA /* Recursion */,
 				BA83B97E28A2D0D200895EAA /* DataStructures */,
 				BA83B96F28A2CEBA00895EAA /* Sorting */,
@@ -296,6 +315,7 @@
 				BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */,
 				BA83B9A528A313C600895EAA /* GraphAssignment.swift in Sources */,
 				BA83B97D28A2CFE100895EAA /* QuickSort.swift in Sources */,
+				BA27FD3228AB615D00548BE7 /* GreedyAssignment.swift in Sources */,
 				BA83B9A028A2D40E00895EAA /* TreeTraversal.swift in Sources */,
 				BA83B97928A2CF7B00895EAA /* InsertionSort.swift in Sources */,
 				BA83B98928A2D1B900895EAA /* ExhaustiveSearch.swift in Sources */,

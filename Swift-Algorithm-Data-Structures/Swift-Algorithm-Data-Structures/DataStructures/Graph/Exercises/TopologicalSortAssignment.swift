@@ -44,12 +44,10 @@ func courseSchedule(_ numCourses: Int, _ prerequisites: [[Int]]) -> Bool {
 	
 	// Filtering and Validating
 	for indegree in indegreeList {
-		print("Finally checking indegree list 1: \(indegreeList)")
 		if indegree != 0 {
 			return false
 		}
 	}
-	print("Finally checking indegree list 2: \(indegreeList)")
 	return indegreeList.filter {$0 != 0}.count == 0
 }
 
@@ -81,7 +79,6 @@ func courseScheduleII(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
 	}
 	
 	// 4. Applying BFS
-	print("Checking the queue: \(queue)")
 	while !queue.isEmpty() {
 		let node = queue.dequeue()!
 		resultList.append(node)
