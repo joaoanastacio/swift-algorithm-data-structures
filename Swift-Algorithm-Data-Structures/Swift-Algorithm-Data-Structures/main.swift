@@ -51,10 +51,25 @@ import Foundation
 //print(canCompleteCircuit([2,3,4], [3,4,3]))
 
 // Exercise - Partition Labels
-print(partitionLabels("ababcbacadefegdehijhklij"))
-print(partitionLabels("eccbbbbdec"))
+//print(partitionLabels("ababcbacadefegdehijhklij"))
+//print(partitionLabels("eccbbbbdec"))
 
 // Exercise - Task Scheduler
 //print(leastInterval(["A","A","A","B","B","B"], 2))
 //print(leastInterval(["A","A","A","B","B","B"], 0))
 //print(leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2))
+
+// Exercise - Number Of Provinces UF
+//print("Output: \(findCircleNum([[1,1,0],[1,1,0],[0,0,1]]))")
+//print("Output: \(findCircleNum([[1,0,0],[0,1,0],[0,0,1]]))")
+
+// Exercise - Redundant Connection UF
+//print("Output: \(findRedundantConnection([[1,2],[1,3],[2,3]]))")
+//print("Output: \(findRedundantConnection([[1,2],[2,3],[3,4],[1,4],[1,5]]))")
+
+// Longest Consecutive Sequence UF
+print("Output: \(longestConsecutive([100,4,200,1,3,2]))")
+print()
+print("Output: \(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))")
+
+

@@ -33,6 +33,7 @@
 		BA83B9A528A313C600895EAA /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A428A313C600895EAA /* GraphAssignment.swift */; };
 		BA83B9A728A3881400895EAA /* FloodFillAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */; };
 		BA83B9A928A4730100895EAA /* TopologicalSortAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */; };
+		BAAC9D5028AD93500083211F /* UnionFindAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,7 @@
 		BA83B9A428A313C600895EAA /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
 		BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFillAssignment.swift; sourceTree = "<group>"; };
 		BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSortAssignment.swift; sourceTree = "<group>"; };
+		BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFindAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				BA83B9A428A313C600895EAA /* GraphAssignment.swift */,
 				BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */,
 				BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */,
+				BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				BA83B99828A2D34600895EAA /* BFS.swift in Sources */,
 				BA83B99C28A2D36000895EAA /* Bipartite.swift in Sources */,
 				BA83B98428A2D13C00895EAA /* Stack.swift in Sources */,
+				BAAC9D5028AD93500083211F /* UnionFindAssignment.swift in Sources */,
 				BA83B99E28A2D36E00895EAA /* ConnectedComponents.swift in Sources */,
 				BA83B97B28A2CFAF00895EAA /* MergeSort.swift in Sources */,
 				BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */,
