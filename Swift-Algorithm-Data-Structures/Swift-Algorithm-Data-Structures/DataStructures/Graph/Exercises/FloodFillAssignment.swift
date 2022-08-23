@@ -14,71 +14,67 @@ import Foundation
  The minimum days. (O if already ripe, -1 if there’s no way to get all ripe tomatoes)
  */
 func daysToRipen() -> Void {
+	let directionX = [1, -1, 0, 0]
+	let directionY = [0, 0, 1, -1]
 	
-	struct Square {
-		let x: Int
-		let y: Int
+	let firstLineReader = readLine()!.split(separator: " ").map { Int($0)! }
+	let width = firstLineReader[0]
+	let height = firstLineReader[1]
+	
+	var days = [[Int]](repeating: [Int](repeating: -1, count: width), count: height)
+	var grid = [[Int]]()
+	
+	for _ in 0..<height {
+		grid.append(readLine()!.split(separator: " ").map { Int($0)! })
 	}
 	
-	let directionsX = [0, 0, 1, -1]
-	let directionsY = [1, -1, 0, 0]
+	let queue = Queue<(x: Int, y: Int)>()
 	
-	var tomatoBoxMap = [[Int]]()
-	
-	let firstLine = readLine()!.split(separator: " ")
-	
-	let m = Int(firstLine[0])!
-	let n = Int(firstLine[1])!
-	
-	var adjacencyMatrix = [[Int]](repeating: [Int](repeating: 0, count: m), count: n)
-	
-	for _ in 0..<n {
-		let row = readLine()!.map { Int(String($0))! }
-		tomatoBoxMap.append(row)
+	for currentRow in 0..<height {
+		for currentColumn in 0..<width {
+			if grid[currentRow][currentColumn] == 1 {
+				queue.enqueue(item: (x: currentColumn, y: currentRow))
+			}
+			days[currentRow][currentColumn] = 0
+		}
 	}
 	
-	func bfs(x: Int, y: Int, identifier: Int) {
-		let queue = Queue<Square>()
-		queue.enqueue(item: Square(x: x, y: y))
-		adjacencyMatrix[x][y] = identifier
+	while !queue.isEmpty() {
+		let firstItem = queue.dequeue()!
 		
-		while !queue.isEmpty() {
-			let lastSquare = queue.dequeue()!
-			let x = lastSquare.x
-			let y = lastSquare.y
+		let x = firstItem.x
+		let y = firstItem.y
+		
+		for i in 0..<4 {
+			let nx = x + directionX[i]
+			let ny = y + directionY[i]
 			
-			for index in 0..<4 {
-				let nextXElement = x + directionsX[index]
-				let nextYElement = y + directionsY[index]
-				
-				if nextXElement >= 0 && nextXElement < n && nextYElement >= 0 && nextYElement < n {
-					if tomatoBoxMap[nextXElement][nextYElement] == 1 && adjacencyMatrix[nextXElement][nextYElement] == 0 {
-						queue.enqueue(item: Square(x: nextXElement, y: nextYElement))
-						adjacencyMatrix[nextXElement][nextYElement] = identifier
-					}
+			if nx >= 0 && nx < width && ny >= 0 && ny < height {
+				if grid[nx][ny] == 0 && days[nx][ny] == -1 {
+					days[nx][ny] = days[x][y] + 1
+					queue.enqueue(item: (x: nx, y: ny))
 				}
 			}
-			
 		}
 	}
 	
-	var identifier = 0
-	for x in 0..<n {
-		for y in 0..<m {
-			if tomatoBoxMap[x][y] == 0 && adjacencyMatrix[x][y] == 0 {
-				identifier += 1
-				bfs(x: x, y: y, identifier: identifier)
-				print()
-				
-				print("Tomato")
-				print(tomatoBoxMap)
-				
-				print("Adjacency")
-				print(adjacencyMatrix)
+	var answer = 0
+	
+	for heightRow in 0..<height {
+		for widthColumn in 0..<width {
+			if grid[heightRow][widthColumn] == 0 && days[heightRow][widthColumn] == -1 {
+				answer = -1
+				print(answer)
+				return
+			}
+			
+			if answer < days[heightRow][widthColumn] {
+				answer = days[heightRow][widthColumn]
 			}
 		}
 	}
-	print(identifier)
+	
+	print("Output: \(answer)")
 }
 
 func shortestBridgeLength() -> Void {

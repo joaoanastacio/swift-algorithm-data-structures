@@ -23,7 +23,7 @@ import Foundation
 //findCenterOfStarGraph()
 
 // Exercise - Tomato Farm
-//daysToRipen()
+daysToRipen()
 
 // Exercise - Bridges
 //shortestBridgeLength()
@@ -79,5 +79,5 @@ import Foundation
 //print("Output: \(numberOfProvinces([[1,0,0],[0,1,0],[0,0,1]]))")
 
 // Exercise - Graph Assignment (5)
-print("Output: \(findCenterOfStarGraph([[1,2],[2,3],[4,2]]))")
-print("Output: \(findCenterOfStarGraph([[1,2],[5,1],[1,3],[1,4]]))")
+//print("Output: \(findCenterOfStarGraph([[1,2],[2,3],[4,2]]))")
+//print("Output: \(findCenterOfStarGraph([[1,2],[5,1],[1,3],[1,4]]))")
