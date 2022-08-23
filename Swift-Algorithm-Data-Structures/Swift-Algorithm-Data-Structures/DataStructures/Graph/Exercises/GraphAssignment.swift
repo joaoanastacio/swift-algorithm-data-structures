@@ -110,9 +110,32 @@ func findTownJudge(_ n: Int, _ trust: [[Int]]) -> Int {
 }
 
 func numberOfProvinces(_ isConnected: [[Int]]) -> Int {
-	return 0
+	var numberOfProvinces = 0;
+	var visited = [Bool](repeating: false, count: isConnected.count)
+	
+	for index in 0..<isConnected.count {
+		if visited[index] == false {
+			dfs(adjacencyList: isConnected, visitedArray: visited, start: index)
+			numberOfProvinces += 1
+		}
+	}
+	
+	func dfs(adjacencyList: [[Int]], visitedArray: [Bool], start: Int) {
+		for i in 0..<adjacencyList.count {
+			if visited[i] == false && adjacencyList[start][i] == 1 {
+				visited[i] = true
+				dfs(adjacencyList: adjacencyList, visitedArray: visitedArray, start: start)
+			}
+		}
+	}
+	
+	return numberOfProvinces
 }
 
-func findCenterOfStarGraph() {
-	print("Center of Star Graph")
+func findCenterOfStarGraph(_ edges: [[Int]]) -> Int {
+	if edges[0][0] == edges[1][1] || edges[0][0] == edges[1][0] {
+	  return edges[0][0]
+	} else {
+	  return edges[0][1]
+	}
 }

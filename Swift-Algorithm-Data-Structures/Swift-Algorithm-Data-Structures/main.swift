@@ -72,4 +72,12 @@ import Foundation
 //print("Output: \(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))")
 
 // Exercise - Minimum Cost Flow Assignment
-print("Output: \(minimumCostFlow())")
+//print("Output: \(minimumCostFlow())")
+
+// Exercise - Graph Assignment (4)
+//print("Output: \(numberOfProvinces([[1,1,0],[1,1,0],[0,0,1]]))")
+//print("Output: \(numberOfProvinces([[1,0,0],[0,1,0],[0,0,1]]))")
+
+// Exercise - Graph Assignment (5)
+print("Output: \(findCenterOfStarGraph([[1,2],[2,3],[4,2]]))")
+print("Output: \(findCenterOfStarGraph([[1,2],[5,1],[1,3],[1,4]]))")
