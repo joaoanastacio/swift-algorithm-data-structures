@@ -34,6 +34,7 @@
 		BA83B9A728A3881400895EAA /* FloodFillAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */; };
 		BA83B9A928A4730100895EAA /* TopologicalSortAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */; };
 		BAAC9D5028AD93500083211F /* UnionFindAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */; };
+		BAAE712C28B44FE400F206DE /* MinimumCostFlowAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +79,7 @@
 		BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFillAssignment.swift; sourceTree = "<group>"; };
 		BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSortAssignment.swift; sourceTree = "<group>"; };
 		BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFindAssignment.swift; sourceTree = "<group>"; };
+		BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlowAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 				BA83B9A628A3881400895EAA /* FloodFillAssignment.swift */,
 				BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */,
 				BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */,
+				BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				BA83B98228A2D10E00895EAA /* Queue.swift in Sources */,
 				BA83B99828A2D34600895EAA /* BFS.swift in Sources */,
 				BA83B99C28A2D36000895EAA /* Bipartite.swift in Sources */,
+				BAAE712C28B44FE400F206DE /* MinimumCostFlowAssignment.swift in Sources */,
 				BA83B98428A2D13C00895EAA /* Stack.swift in Sources */,
 				BAAC9D5028AD93500083211F /* UnionFindAssignment.swift in Sources */,
 				BA83B99E28A2D36E00895EAA /* ConnectedComponents.swift in Sources */,

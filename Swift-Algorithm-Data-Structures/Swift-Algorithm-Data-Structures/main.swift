@@ -68,8 +68,8 @@ import Foundation
 //print("Output: \(findRedundantConnection([[1,2],[2,3],[3,4],[1,4],[1,5]]))")
 
 // Longest Consecutive Sequence UF
-print("Output: \(longestConsecutive([100,4,200,1,3,2]))")
-print()
-print("Output: \(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))")
+//print("Output: \(longestConsecutive([100,4,200,1,3,2]))")
+//print("Output: \(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))")
 
-
+// Exercise - Minimum Cost Flow Assignment
+print("Output: \(minimumCostFlow())")

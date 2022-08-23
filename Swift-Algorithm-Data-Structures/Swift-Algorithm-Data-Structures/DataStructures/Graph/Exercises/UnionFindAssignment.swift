@@ -118,7 +118,6 @@ func longestConsecutive(_ nums: [Int]) -> Int {
 	}
 	
 	var numSet: Set<Int> = []
-	
 	var unionFind = UF(nums.count)
 	
 	for num in nums {
@@ -135,7 +134,5 @@ func longestConsecutive(_ nums: [Int]) -> Int {
 		}
 		numSet.insert(num)
 	}
-	print("Union find: \(unionFind.count)")
-	print("Num Set: \(numSet)")
 	return min(unionFind.count, numSet.count)
 }
