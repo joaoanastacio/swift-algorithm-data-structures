@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA27FD3228AB615D00548BE7 /* GreedyAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */; };
+		BA538DC028B59FF4003C36B7 /* TreeAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA538DBF28B59FF4003C36B7 /* TreeAssignment.swift */; };
 		BA83B96528A2CE3B00895EAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96428A2CE3B00895EAA /* main.swift */; };
 		BA83B96D28A2CE8900895EAA /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */; };
 		BA83B97128A2CEE000895EAA /* LinearSearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B97028A2CEE000895EAA /* LinearSearching.swift */; };
@@ -35,6 +36,8 @@
 		BA83B9A928A4730100895EAA /* TopologicalSortAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */; };
 		BAAC9D5028AD93500083211F /* UnionFindAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */; };
 		BAAE712C28B44FE400F206DE /* MinimumCostFlowAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */; };
+		BAC8FACE28B6D16400D6436B /* ShortestPathAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */; };
+		BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyAssignment.swift; sourceTree = "<group>"; };
+		BA538DBF28B59FF4003C36B7 /* TreeAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAssignment.swift; sourceTree = "<group>"; };
 		BA83B96128A2CE3B00895EAA /* Swift-Algorithm-Data-Structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Algorithm-Data-Structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA83B96428A2CE3B00895EAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BA83B96C28A2CE8900895EAA /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSortAssignment.swift; sourceTree = "<group>"; };
 		BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFindAssignment.swift; sourceTree = "<group>"; };
 		BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlowAssignment.swift; sourceTree = "<group>"; };
+		BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestPathAssignment.swift; sourceTree = "<group>"; };
+		BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,14 @@
 			isa = PBXGroup;
 			children = (
 				BA27FD3128AB615D00548BE7 /* GreedyAssignment.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		BA538DBE28B59FE0003C36B7 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				BA538DBF28B59FF4003C36B7 /* TreeAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -203,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				BA83B98128A2D10E00895EAA /* Queue.swift */,
+				BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 		BA83B99228A2D2DB00895EAA /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				BA538DBE28B59FE0003C36B7 /* Exercises */,
 				BA83B99F28A2D40E00895EAA /* TreeTraversal.swift */,
 			);
 			path = Tree;
@@ -245,6 +261,7 @@
 				BA83B9A828A4730100895EAA /* TopologicalSortAssignment.swift */,
 				BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */,
 				BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */,
+				BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -307,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */,
 				BA83B9A728A3881400895EAA /* FloodFillAssignment.swift in Sources */,
 				BA83B98028A2D0E900895EAA /* Bag.swift in Sources */,
 				BA83B96528A2CE3B00895EAA /* main.swift in Sources */,
@@ -334,7 +352,9 @@
 				BA83B99428A2D32100895EAA /* AdjacencyList.swift in Sources */,
 				BA83B98B28A2D1F200895EAA /* Backtracking.swift in Sources */,
 				BA83B98728A2D18600895EAA /* Recursion.swift in Sources */,
+				BA538DC028B59FF4003C36B7 /* TreeAssignment.swift in Sources */,
 				BA83B96D28A2CE8900895EAA /* String+DPStringTool.swift in Sources */,
+				BAC8FACE28B6D16400D6436B /* ShortestPathAssignment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

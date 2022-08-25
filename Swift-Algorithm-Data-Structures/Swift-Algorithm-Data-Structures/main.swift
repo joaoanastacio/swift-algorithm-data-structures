@@ -23,7 +23,7 @@ import Foundation
 //findCenterOfStarGraph()
 
 // Exercise - Tomato Farm
-daysToRipen()
+//daysToRipen()
 
 // Exercise - Bridges
 //shortestBridgeLength()
@@ -81,3 +81,33 @@ daysToRipen()
 // Exercise - Graph Assignment (5)
 //print("Output: \(findCenterOfStarGraph([[1,2],[2,3],[4,2]]))")
 //print("Output: \(findCenterOfStarGraph([[1,2],[5,1],[1,3],[1,4]]))")
+
+// Exercise - Tree Assignment (1)
+//whoIsMyParent()
+
+// Exercise - Tree Assignment (2)
+//diameterOfTree()
+
+// Exercise - Shortest Path (1)
+//print("Output: \(networkDelayTime([[2,1,1],[2,3,1],[3,4,1]], 4, 2))")
+//print("Output: \(networkDelayTime([[1,2,1]], 2, 1))")
+//print("Output: \(networkDelayTime([[1,2,1]], 2, 2))")
+
+// Exercise - Shortest Path (2)
+//print("Output: \(findCheapestPrice(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1))")
+//print("Output: \(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 1))")
+//print("Output: \(findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 0))")
+
+// Exercise - Shortest Path (3)
+//print("Output: \(findTheCity(4, [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], 4))")
+//print("Output: \(findTheCity(5, [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], 2))")
+
+// Exercise - Shortest Path (4)
+//print("Output: \(maxProbability(3, [[0,1],[1,2],[0,2]], [0.5,0.5,0.2], 0, 2))")
+//print("Output: \(maxProbability(3, [[0,1],[1,2],[0,2]], [0.5,0.5,0.3], 0, 2))")
+//print("Output: \(maxProbability(3, [[0,1]], [0.5], 0, 2))")
+
+// Exercise - Shortest Path (5)
+print("Output: \(minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]))")
+print("Output: \(minimumEffortPath([[1,2,3],[3,8,4],[5,3,5]]))")
+print("Output: \(minimumEffortPath([[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]))")
