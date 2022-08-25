@@ -108,6 +108,10 @@ import Foundation
 //print("Output: \(maxProbability(3, [[0,1]], [0.5], 0, 2))")
 
 // Exercise - Shortest Path (5)
-print("Output: \(minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]))")
-print("Output: \(minimumEffortPath([[1,2,3],[3,8,4],[5,3,5]]))")
-print("Output: \(minimumEffortPath([[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]))")
+//print("Output: \(minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]]))")
+//print("Output: \(minimumEffortPath([[1,2,3],[3,8,4],[5,3,5]]))")
+//print("Output: \(minimumEffortPath([[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]))")
+
+
+// Exercise - Dynamic Programming (5)
+print("Output: \(exerciseSix(10))")

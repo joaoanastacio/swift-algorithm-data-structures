@@ -38,6 +38,7 @@
 		BAAE712C28B44FE400F206DE /* MinimumCostFlowAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */; };
 		BAC8FACE28B6D16400D6436B /* ShortestPathAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */; };
 		BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */; };
+		BAC8FAD228B7F46900D6436B /* DynamicProgrammingAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,7 @@
 		BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlowAssignment.swift; sourceTree = "<group>"; };
 		BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestPathAssignment.swift; sourceTree = "<group>"; };
 		BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProgrammingAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				BAAC9D4F28AD93500083211F /* UnionFindAssignment.swift */,
 				BAAE712B28B44FE400F206DE /* MinimumCostFlowAssignment.swift */,
 				BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */,
+				BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				BA83B97928A2CF7B00895EAA /* InsertionSort.swift in Sources */,
 				BA83B98928A2D1B900895EAA /* ExhaustiveSearch.swift in Sources */,
 				BA83B97128A2CEE000895EAA /* LinearSearching.swift in Sources */,
+				BAC8FAD228B7F46900D6436B /* DynamicProgrammingAssignment.swift in Sources */,
 				BA83B99A28A2D35400895EAA /* DFS.swift in Sources */,
 				BA83B9A928A4730100895EAA /* TopologicalSortAssignment.swift in Sources */,
 				BA83B97728A2CF5200895EAA /* SelectionSort.swift in Sources */,

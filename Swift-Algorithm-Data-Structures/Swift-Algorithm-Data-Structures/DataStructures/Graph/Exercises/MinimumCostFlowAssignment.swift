@@ -24,51 +24,6 @@ func minimumCostFlow() -> Int {
 }
 
 fileprivate func minimumCostFlowHelper(n: Int, m: Int, d: Int, adjacencyList: [[Int]]) -> Int {
-	
-	func dfs(start: Int, target: Int, adjacencyList: [[(v:Int, c:Int)]], res: inout [(p:Int, q:Int, c:Int)], visited: inout [Bool]) {
-		visited[start] = true
-		
-		for vertice in adjacencyList[start] {
-			if visited[vertice.v] {
-				continue
-			}
-			
-			res.append((start, vertice.v, vertice.c))
-			
-			if vertice.v == target {
-				return
-			}
-			
-			dfs(start: vertice.v, target: target, adjacencyList: adjacencyList, res: &res, visited: &visited)
-			
-			guard res.last!.q != target || res.last!.p != target else {
-				return
-			}
-			_ = res.popLast()
-		}
-	}
-	
-	func disconnectEdge(p: Int, q: Int, adjacencyList: inout [[(v:Int, c:Int)]]) {
-		for (i, edge) in adjacencyList[p].enumerated() {
-			if edge.v == q {
-				adjacencyList[p].remove(at: i)
-				break
-			}
-		}
-		
-		for (j, edge) in adjacencyList[q].enumerated() {
-			if edge.v == p {
-				adjacencyList[q].remove(at: j)
-				break
-			}
-		}
-	}
-	
-	func connectEdge(p: Int, q: Int, c: Int, adjacencyList: inout [[(v:Int, c:Int)]]) {
-		adjacencyList[p].append((q, c))
-		adjacencyList[q].append((p, c))
-	}
-	
 	var finalAdjacencyList = [[(v:Int, c:Int)]].init(repeating: [], count: n + 1)
 	var addEdges = [(p:Int, q:Int, c:Int)]()
 	
@@ -91,7 +46,6 @@ fileprivate func minimumCostFlowHelper(n: Int, m: Int, d: Int, adjacencyList: [[
 	for addEdge in addEdges {
 		var visited = [Bool].init(repeating: false, count: n + 1)
 		var route = [(p:Int, q:Int, c:Int)]()
-		dfs(start: addEdge.p, target: addEdge.q, adjacencyList: finalAdjacencyList, res: &route, visited: &visited)
 		
 		var maxCostEdge = route.first!
 		for vc in route {
@@ -99,23 +53,9 @@ fileprivate func minimumCostFlowHelper(n: Int, m: Int, d: Int, adjacencyList: [[
 				maxCostEdge = vc
 			}
 		}
-		
 		if maxCostEdge.c < addEdge.c {
 			continue
 		}
-		
-		if !isUsedEnhancer {
-			let deduction = maxCostEdge.c < d ? maxCostEdge.c : d
-			if maxCostEdge.c - deduction <= addEdge.c {
-				isUsedEnhancer = true
-				continue
-			}
-		}
-		
-		disconnectEdge(p: maxCostEdge.p, q: maxCostEdge.q, adjacencyList: &finalAdjacencyList)
-		connectEdge(p: addEdge.p, q: addEdge.q, c: addEdge.c, adjacencyList: &finalAdjacencyList)
-		countDays += 1
 	}
-	
 	return countDays
 }

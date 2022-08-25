@@ -10,7 +10,6 @@ import Foundation
 func networkDelayTime(_ times: [[Int]], _ n: Int, _ k: Int) -> Int {
 	var adjacencyList = [[(vertice: Int, weight: Int)]](repeating: [(Int, Int)](), count: n)
 	var dist = [Int](repeating: Int.max, count: n)
-	
 	dist[k - 1] = 0
 	
 	for time in times {
@@ -29,7 +28,6 @@ func networkDelayTime(_ times: [[Int]], _ n: Int, _ k: Int) -> Int {
 		let count = queue.count
 		
 		for _ in 0..<count {
-			
 			let (weight, targetNode) = queue.dequeue()!
 			checked.insert(targetNode)
 			
@@ -47,7 +45,6 @@ func networkDelayTime(_ times: [[Int]], _ n: Int, _ k: Int) -> Int {
 	if checked.count != n {
 		return -1
 	}
-	
 	return dist.max() ?? -1
 }
 
@@ -55,7 +52,7 @@ func findCheapestPrice(_ n: Int, _ flights: [[Int]], _ src: Int, _ dst: Int, _ k
 	var dist = [Int](repeating: Int.max, count: n)
 	dist[src] = 0
 	
-	for _ in 0..<k+1 {
+	for _ in 0...k {
 		var currentDist = dist
 		
 		for flight in flights {
@@ -117,6 +114,7 @@ func findTheCity(_ n: Int, _ edges: [[Int]], _ distanceThreshold: Int) -> Int {
 			result = j
 		}
 	}
+	
 	return result
 }
 
