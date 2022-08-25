@@ -39,6 +39,7 @@
 		BAC8FACE28B6D16400D6436B /* ShortestPathAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */; };
 		BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */; };
 		BAC8FAD228B7F46900D6436B /* DynamicProgrammingAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */; };
+		BAC8FAD428B83E4200D6436B /* LCAAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FAD328B83E4200D6436B /* LCAAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +89,7 @@
 		BAC8FACD28B6D16400D6436B /* ShortestPathAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestPathAssignment.swift; sourceTree = "<group>"; };
 		BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProgrammingAssignment.swift; sourceTree = "<group>"; };
+		BAC8FAD328B83E4200D6436B /* LCAAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCAAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BA538DBF28B59FF4003C36B7 /* TreeAssignment.swift */,
+				BAC8FAD328B83E4200D6436B /* LCAAssignment.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */,
 				BA83B9A528A313C600895EAA /* GraphAssignment.swift in Sources */,
 				BA83B97D28A2CFE100895EAA /* QuickSort.swift in Sources */,
+				BAC8FAD428B83E4200D6436B /* LCAAssignment.swift in Sources */,
 				BA27FD3228AB615D00548BE7 /* GreedyAssignment.swift in Sources */,
 				BA83B9A028A2D40E00895EAA /* TreeTraversal.swift in Sources */,
 				BA83B97928A2CF7B00895EAA /* InsertionSort.swift in Sources */,
