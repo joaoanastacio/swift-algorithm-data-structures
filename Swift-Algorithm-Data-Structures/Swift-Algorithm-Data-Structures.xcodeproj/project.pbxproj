@@ -40,6 +40,9 @@
 		BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */; };
 		BAC8FAD228B7F46900D6436B /* DynamicProgrammingAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */; };
 		BAC8FAD428B83E4200D6436B /* LCAAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8FAD328B83E4200D6436B /* LCAAssignment.swift */; };
+		BAE5C8A628B9467000D43FCC /* lps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8A528B9467000D43FCC /* lps.swift */; };
+		BAE5C8A828B946AA00D43FCC /* happy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8A728B946AA00D43FCC /* happy.swift */; };
+		BAE5C8AC28B9570A00D43FCC /* lcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8AB28B9570A00D43FCC /* lcs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +93,9 @@
 		BAC8FACF28B6E6E500D6436B /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		BAC8FAD128B7F46900D6436B /* DynamicProgrammingAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProgrammingAssignment.swift; sourceTree = "<group>"; };
 		BAC8FAD328B83E4200D6436B /* LCAAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCAAssignment.swift; sourceTree = "<group>"; };
+		BAE5C8A528B9467000D43FCC /* lps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lps.swift; sourceTree = "<group>"; };
+		BAE5C8A728B946AA00D43FCC /* happy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happy.swift; sourceTree = "<group>"; };
+		BAE5C8AB28B9570A00D43FCC /* lcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,9 @@
 				BA83B96E28A2CEB100895EAA /* Searching */,
 				BA83B96B28A2CE6D00895EAA /* Utils */,
 				BA83B96428A2CE3B00895EAA /* main.swift */,
+				BAE5C8A528B9467000D43FCC /* lps.swift */,
+				BAE5C8A728B946AA00D43FCC /* happy.swift */,
+				BAE5C8AB28B9570A00D43FCC /* lcs.swift */,
 			);
 			path = "Swift-Algorithm-Data-Structures";
 			sourceTree = "<group>";
@@ -332,6 +341,7 @@
 			files = (
 				BAC8FAD028B6E6E500D6436B /* PriorityQueue.swift in Sources */,
 				BA83B9A728A3881400895EAA /* FloodFillAssignment.swift in Sources */,
+				BAE5C8AC28B9570A00D43FCC /* lcs.swift in Sources */,
 				BA83B98028A2D0E900895EAA /* Bag.swift in Sources */,
 				BA83B96528A2CE3B00895EAA /* main.swift in Sources */,
 				BA83B97328A2CF0300895EAA /* BinarySearching.swift in Sources */,
@@ -346,6 +356,7 @@
 				BA83B97B28A2CFAF00895EAA /* MergeSort.swift in Sources */,
 				BA83B97528A2CF2E00895EAA /* BubbleSort.swift in Sources */,
 				BA83B9A528A313C600895EAA /* GraphAssignment.swift in Sources */,
+				BAE5C8A828B946AA00D43FCC /* happy.swift in Sources */,
 				BA83B97D28A2CFE100895EAA /* QuickSort.swift in Sources */,
 				BAC8FAD428B83E4200D6436B /* LCAAssignment.swift in Sources */,
 				BA27FD3228AB615D00548BE7 /* GreedyAssignment.swift in Sources */,
@@ -357,6 +368,7 @@
 				BA83B99A28A2D35400895EAA /* DFS.swift in Sources */,
 				BA83B9A928A4730100895EAA /* TopologicalSortAssignment.swift in Sources */,
 				BA83B97728A2CF5200895EAA /* SelectionSort.swift in Sources */,
+				BAE5C8A628B9467000D43FCC /* lps.swift in Sources */,
 				BA83B99428A2D32100895EAA /* AdjacencyList.swift in Sources */,
 				BA83B98B28A2D1F200895EAA /* Backtracking.swift in Sources */,
 				BA83B98728A2D18600895EAA /* Recursion.swift in Sources */,

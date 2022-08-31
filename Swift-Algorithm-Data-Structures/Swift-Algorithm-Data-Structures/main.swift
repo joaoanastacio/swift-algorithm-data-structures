@@ -114,4 +114,10 @@ import Foundation
 
 
 // Exercise - Dynamic Programming (5)
-print("Output: \(exerciseSix(10))")
+//print("Output: \(exerciseSix(10))")
+
+
+// Exam
+//print("Output: \(palindromeLength())")
+//print("Output: \(happyOrSad())")
+print("Output: \(longestCommonSubsequence())")
