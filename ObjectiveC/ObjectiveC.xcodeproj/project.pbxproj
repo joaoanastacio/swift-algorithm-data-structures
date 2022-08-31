@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAA9333128BFC1FE00797947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9333028BFC1FE00797947 /* main.m */; };
+		BAA9333728BFEB1100797947 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9333628BFEB1100797947 /* Box.m */; };
 		BAE5C8CF28BE6C3C00D43FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8CE28BE6C3C00D43FCC /* main.m */; };
 		BAE5C8DC28BE6CAB00D43FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8DB28BE6CAB00D43FCC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BAA9332C28BFC1FE00797947 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BAE5C8C928BE6C3C00D43FCC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +44,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BAA9332E28BFC1FE00797947 /* Lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab2; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9333028BFC1FE00797947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAA9333528BFEB1100797947 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		BAA9333628BFEB1100797947 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 		BAE5C8CB28BE6C3C00D43FCC /* ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE5C8CE28BE6C3C00D43FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAE5C8D928BE6CAB00D43FCC /* Lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BAA9332B28BFC1FE00797947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAE5C8C828BE6C3C00D43FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAA9332F28BFC1FE00797947 /* Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9333028BFC1FE00797947 /* main.m */,
+				BAA9333528BFEB1100797947 /* Box.h */,
+				BAA9333628BFEB1100797947 /* Box.m */,
+			);
+			path = Lab2;
+			sourceTree = "<group>";
+		};
 		BAE5C8C228BE6C3C00D43FCC = {
 			isa = PBXGroup;
 			children = (
 				BAE5C8CD28BE6C3C00D43FCC /* ObjectiveC */,
 				BAE5C8DA28BE6CAB00D43FCC /* Lab1 */,
+				BAA9332F28BFC1FE00797947 /* Lab2 */,
 				BAE5C8CC28BE6C3C00D43FCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +104,7 @@
 			children = (
 				BAE5C8CB28BE6C3C00D43FCC /* ObjectiveC */,
 				BAE5C8D928BE6CAB00D43FCC /* Lab1 */,
+				BAA9332E28BFC1FE00797947 /* Lab2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +128,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BAA9332D28BFC1FE00797947 /* Lab2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9333428BFC1FE00797947 /* Build configuration list for PBXNativeTarget "Lab2" */;
+			buildPhases = (
+				BAA9332A28BFC1FE00797947 /* Sources */,
+				BAA9332B28BFC1FE00797947 /* Frameworks */,
+				BAA9332C28BFC1FE00797947 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab2;
+			productName = Lab2;
+			productReference = BAA9332E28BFC1FE00797947 /* Lab2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		BAE5C8CA28BE6C3C00D43FCC /* ObjectiveC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAE5C8D228BE6C3C00D43FCC /* Build configuration list for PBXNativeTarget "ObjectiveC" */;
@@ -137,6 +188,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					BAA9332D28BFC1FE00797947 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					BAE5C8CA28BE6C3C00D43FCC = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -160,11 +214,21 @@
 			targets = (
 				BAE5C8CA28BE6C3C00D43FCC /* ObjectiveC */,
 				BAE5C8D828BE6CAB00D43FCC /* Lab1 */,
+				BAA9332D28BFC1FE00797947 /* Lab2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BAA9332A28BFC1FE00797947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9333128BFC1FE00797947 /* main.m in Sources */,
+				BAA9333728BFEB1100797947 /* Box.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAE5C8C728BE6C3C00D43FCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +248,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BAA9333228BFC1FE00797947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAA9333328BFC1FE00797947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BAE5C8D028BE6C3C00D43FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +408,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BAA9333428BFC1FE00797947 /* Build configuration list for PBXNativeTarget "Lab2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA9333228BFC1FE00797947 /* Debug */,
+				BAA9333328BFC1FE00797947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BAE5C8C628BE6C3C00D43FCC /* Build configuration list for PBXProject "ObjectiveC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

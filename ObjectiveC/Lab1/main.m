@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
 		
 		while (programStillRunning) {
 			NSString *userMenuInput = getUserInput(255, menuInput);
-			char *userMenuOption = [userMenuInput UTF8String];
+			const char *userMenuOption = [userMenuInput UTF8String];
 			NSMutableString *defaultMultableString;
 			
 			switch (userMenuOption[0]) {
