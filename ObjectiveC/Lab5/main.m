@@ -10,7 +10,7 @@
 #import "Contact.h"
 #import "ContactList.h"
 
-NSString *const menuPrompt = @"\n\nWhat would you like to do next?\n[new] - Create a new contact\n[list] - List all contacts\n[quit] - Exit application\n";
+NSString *const menuPrompt = @"\n\nWhat would you like to do next?\n[new] - Create a new contact\n[list] - List all contacts\n[quit] - Exit application\n[show] - Check specific contact details\n[find] - Find specific contact\n";
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
@@ -36,13 +36,17 @@ int main(int argc, const char * argv[]) {
 				continue;
 			}
 			
-			// TODO: implement contact details
+			if([userInput isEqualToString: @"show"]) {
+				NSString *contactId = [inputCollector inputForPrompt: @"Enter the contact id: "];
+				[contactList listContact: contactId];
+				continue;
+			}
 			
-			// TODO: implement contact search (find)
-			
-			// TODO: implement prevent duplicate entries (for email - no duplicated emails)
-			
-			// TODO: implement multiple phone numbers
+			if([userInput isEqualToString: @"find"]) {
+				NSString *term = [inputCollector inputForPrompt: @"Enter a term for search: "];
+				[contactList listContactsByTerm: term];
+				continue;
+			}
 			
 			// TODO: implement history feature
 			

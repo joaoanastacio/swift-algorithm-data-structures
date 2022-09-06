@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ContactList : NSObject
 
 - (void) addContact:(Contact *) newContact;
+- (void) listContact: (NSString *) contactId;
+- (void) listContactsByTerm: (NSString *) term;
 - (void) listContacts;
 
 @end
