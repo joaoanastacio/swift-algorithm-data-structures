@@ -20,9 +20,21 @@
 }
 
 - (void) addContact:(Contact *) newContact {
-	// TODO: implement prevent duplicate entries (for email - no duplicated emails)
 	// TODO: implement multiple phone numbers
-	[_contacts addObject: newContact];
+	if([_contacts count] >= 1) {
+		for (int i = 0; i < [_contacts count]; i++) {
+			Contact *currentContact = _contacts[i];
+			NSLog(@"Current contact: %@", currentContact);
+			
+			if([currentContact.email isEqualToString: newContact.email]) {
+				NSLog(@"The email provided is already in use, please try again with another email.");
+			} else {
+				[_contacts addObject: newContact];
+			}
+		}
+	} else {
+		[_contacts addObject: newContact];
+	}
 }
 
 - (void) listContact: (NSString *) contactId {
