@@ -20,4 +20,18 @@
 	return self;
 }
 
+- (void) holdDie: (NSUInteger *) diceNumber {
+	NSString *diceNumberParsedString = [NSString stringWithFormat:@"%li", diceNumber];
+	
+	if (_currentHeldDiceCollection[diceNumberParsedString]) {
+		NSString *currentValueForKey = [_currentHeldDiceCollection objectForKey: diceNumberParsedString];
+		NSNumber *currentValueAsNumber = [NSNumber numberWithLongLong: currentValueForKey.longLongValue];
+		NSUInteger currentValueParsed = currentValueAsNumber.unsignedIntegerValue + 1;
+		[_currentHeldDiceCollection setValue: [NSString stringWithFormat: @"%li", currentValueParsed] forKey: diceNumberParsedString];
+		
+	} else {
+		[_currentHeldDiceCollection setValue: @"1" forKey: diceNumberParsedString];
+	}
+}
+
 @end

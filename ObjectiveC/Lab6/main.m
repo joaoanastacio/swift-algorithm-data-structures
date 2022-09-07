@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
 		InputCollector *inputCollector = [[InputCollector alloc] init];
 		NSMutableArray *currentDiceArray = [NSMutableArray new];
 		NSMutableDictionary *heldDiceCollection = [NSMutableDictionary new];
+		GameController *gameController = [[GameController alloc] initWithDiceArray: currentDiceArray andHeldDiceCollection: heldDiceCollection];
 		
 		BOOL isProgramRunning = YES;
 		
@@ -47,9 +48,8 @@ int main(int argc, const char * argv[]) {
 			
 			// MARK: Hold
 			if ([userInput isEqualToString: @"hold"]) {
-				NSLog(@"Inside Hold option");
-				NSLog(@"Checking Dice Array Size: %lu", [currentDiceArray count]);
-				NSLog(@"Checking Current Collection: %lu", [heldDiceCollection count]);
+				NSUInteger *diceNumber = (NSUInteger) 1;
+				[gameController holdDie: diceNumber];
 				continue;
 			}
 			

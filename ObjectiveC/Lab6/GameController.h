@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GameController : NSObject
 
+- (instancetype)initWithDiceArray: (NSMutableArray *) currentDiceArray andHeldDiceCollection: (NSMutableDictionary *) currentHeldDiceCollection;
+- (void) holdDie: (NSUInteger *) diceNumber;
+
 @end
 
 NS_ASSUME_NONNULL_END
