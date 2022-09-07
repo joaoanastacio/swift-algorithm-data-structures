@@ -1,5 +1,5 @@
 //
-//  Dice.h
+//  InputCollector.h
 //  Lab6
 //
 //  Created by Joao Victor Silva Anastacio on 2022-09-06.
@@ -9,11 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Dice : NSObject
+@interface InputCollector : NSObject
 
-@property NSUInteger diceCurrentValue;
-
-- (NSUInteger) randomizeDiceValue;
+- (NSString*) inputForPrompt: (NSString *) promptString;
 
 @end
 

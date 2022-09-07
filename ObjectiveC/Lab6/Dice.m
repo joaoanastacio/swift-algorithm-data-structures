@@ -7,18 +7,11 @@
 
 #import "Dice.h"
 
-@interface Dice ()
-
-@property NSUInteger diceCurrentValue;
-
-@end
-
 @implementation Dice
 
 - (instancetype)init {
 	if(self == [super init]) {
 		_diceCurrentValue = self.randomizeDiceValue;
-		NSLog(@"Dice Current Value = %lu", _diceCurrentValue);
 	}
 	return self;
 }
