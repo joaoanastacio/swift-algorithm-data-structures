@@ -18,6 +18,7 @@
 		BA9821AD28C80D8B0013CA93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9821AC28C80D8B0013CA93 /* main.m */; };
 		BA9821B328C80DF40013CA93 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9821B228C80DF40013CA93 /* Dice.m */; };
 		BA9821B628C814490013CA93 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9821B528C814490013CA93 /* InputCollector.m */; };
+		BA9821B928C819930013CA93 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9821B828C819930013CA93 /* GameController.m */; };
 		BAA9333128BFC1FE00797947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9333028BFC1FE00797947 /* main.m */; };
 		BAA9333728BFEB1100797947 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9333628BFEB1100797947 /* Box.m */; };
 		BAE5C8CF28BE6C3C00D43FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5C8CE28BE6C3C00D43FCC /* main.m */; };
@@ -104,6 +105,8 @@
 		BA9821B228C80DF40013CA93 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 		BA9821B428C814490013CA93 /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
 		BA9821B528C814490013CA93 /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		BA9821B728C819930013CA93 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		BA9821B828C819930013CA93 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		BAA9332E28BFC1FE00797947 /* Lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA9333028BFC1FE00797947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA9333528BFEB1100797947 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				BA9821B228C80DF40013CA93 /* Dice.m */,
 				BA9821B428C814490013CA93 /* InputCollector.h */,
 				BA9821B528C814490013CA93 /* InputCollector.m */,
+				BA9821B728C819930013CA93 /* GameController.h */,
+				BA9821B828C819930013CA93 /* GameController.m */,
 			);
 			path = Lab6;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9821B628C814490013CA93 /* InputCollector.m in Sources */,
+				BA9821B928C819930013CA93 /* GameController.m in Sources */,
 				BA9821B328C80DF40013CA93 /* Dice.m in Sources */,
 				BA9821AD28C80D8B0013CA93 /* main.m in Sources */,
 			);
