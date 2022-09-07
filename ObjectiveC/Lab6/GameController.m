@@ -7,6 +7,17 @@
 
 #import "GameController.h"
 
-@implementation GameController
+@implementation GameController {
+	NSMutableArray *_currentDiceArray;
+	NSMutableDictionary *_currentHeldDiceCollection;
+}
+
+- (instancetype)initWithDiceArray: (NSMutableArray *) currentDiceArray andHeldDiceCollection: (NSMutableDictionary *) currentHeldDiceCollection {
+	if (self == [super init]) {
+		_currentDiceArray = currentDiceArray;
+		_currentHeldDiceCollection = currentHeldDiceCollection;
+	}
+	return self;
+}
 
 @end

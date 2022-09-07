@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
 		
 		InputCollector *inputCollector = [[InputCollector alloc] init];
 		NSMutableArray *currentDiceArray = [NSMutableArray new];
+		NSMutableDictionary *heldDiceCollection = [NSMutableDictionary new];
 		
 		BOOL isProgramRunning = YES;
 		
@@ -27,23 +28,18 @@ int main(int argc, const char * argv[]) {
 			// MARK: Roll
 			if ([userInput isEqualToString: @"roll"]) {
 				Dice *dice1 = [[Dice alloc] init];
-				NSLog(@"Dice 1: %lu", dice1.diceCurrentValue);
 				[currentDiceArray addObject: dice1];
 				
 				Dice *dice2 = [[Dice alloc] init];
-				NSLog(@"Dice 2: %lu", dice2.diceCurrentValue);
 				[currentDiceArray addObject: dice2];
 
 				Dice *dice3 = [[Dice alloc] init];
-				NSLog(@"Dice 3: %lu", dice3.diceCurrentValue);
 				[currentDiceArray addObject: dice3];
 
 				Dice *dice4 = [[Dice alloc] init];
-				NSLog(@"Dice 4: %lu", dice4.diceCurrentValue);
 				[currentDiceArray addObject: dice4];
 
 				Dice *dice5 = [[Dice alloc] init];
-				NSLog(@"Dice 5: %lu", dice5.diceCurrentValue);
 				[currentDiceArray addObject: dice5];
 				
 				continue;
@@ -52,6 +48,8 @@ int main(int argc, const char * argv[]) {
 			// MARK: Hold
 			if ([userInput isEqualToString: @"hold"]) {
 				NSLog(@"Inside Hold option");
+				NSLog(@"Checking Dice Array Size: %lu", [currentDiceArray count]);
+				NSLog(@"Checking Current Collection: %lu", [heldDiceCollection count]);
 				continue;
 			}
 			
