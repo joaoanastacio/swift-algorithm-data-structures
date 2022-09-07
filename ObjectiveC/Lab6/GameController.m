@@ -20,7 +20,7 @@
 	return self;
 }
 
-- (void) holdDie: (NSUInteger *) diceNumber {
+- (void) holdDice: (NSUInteger *) diceNumber {
 	NSString *diceNumberParsedString = [NSString stringWithFormat:@"%li", diceNumber];
 	
 	if (_currentHeldDiceCollection[diceNumberParsedString]) {

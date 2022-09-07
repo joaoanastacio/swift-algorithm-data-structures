@@ -49,7 +49,7 @@ int main(int argc, const char * argv[]) {
 			// MARK: Hold
 			if ([userInput isEqualToString: @"hold"]) {
 				NSUInteger *diceNumber = (NSUInteger) 1;
-				[gameController holdDie: diceNumber];
+				[gameController holdDice: diceNumber];
 				continue;
 			}
 			
