@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithDiceArray: (NSMutableArray *) currentDiceArray andHeldDiceCollection: (NSMutableDictionary *) currentHeldDiceCollection;
 - (void) holdDice: (NSUInteger *) diceNumber;
+- (void) printHeldDice;
 
 @end
 

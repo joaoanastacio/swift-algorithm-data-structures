@@ -11,7 +11,8 @@
 #import "GameController.h"
 
 
-NSString *const menuPrompt = @"\nWhat would you like to do next?\n[roll] - Roll your dices\n[hold] - Hold a specific dice\n[quit] - Quit the program";
+NSString *const menuPrompt = @"\nWhat would you like to do next?\n[roll] - Roll your dices\n[hold] - Hold a specific dice\n[reset] - Un-hold all dice\n[display] - Show current stats\n[done] - Quit the program";
+NSString *const holdPrompt = @"\nEnter the number of the die:\n";
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
@@ -48,13 +49,26 @@ int main(int argc, const char * argv[]) {
 			
 			// MARK: Hold
 			if ([userInput isEqualToString: @"hold"]) {
-				NSUInteger *diceNumber = (NSUInteger) 1;
+				NSString *userHoldInput = [inputCollector inputForPrompt: holdPrompt];
+				NSUInteger *diceNumber = (NSUInteger) [userHoldInput intValue];
 				[gameController holdDice: diceNumber];
 				continue;
 			}
 			
-			// MARK: Quit
-			if ([userInput isEqualToString: @"quit"]) {
+			// MARK: Reset
+			if ([userInput isEqualToString: @"reset"]) {
+				NSLog(@"Inside Reset");
+				continue;
+			}
+			
+			// MARK: Display
+			if ([userInput isEqualToString: @"display"]) {
+				NSLog(@"Inside Display");
+				continue;
+			}
+			
+			// MARK: Done
+			if ([userInput isEqualToString: @"done"]) {
 				isProgramRunning = NO;
 			}
 		}
